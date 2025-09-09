@@ -3,9 +3,9 @@ void main(){
 
   stdout.write('Enter your name: ');
   String? name = stdin.readLineSync();
-  MyInfo(name);
+  myInfo(name);
 }
 
-void MyInfo(String? p_name){
+void myInfo(String? p_name){
  print('Good night!! $p_name');
 }
